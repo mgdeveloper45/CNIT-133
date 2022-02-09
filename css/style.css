@@ -21,7 +21,7 @@ header {
 /* font & styling for main heading */
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 48px; 
+    font-size: 52px; 
     color: #fff;
     margin: 0;
     padding-top: 40px; 
@@ -61,6 +61,7 @@ h1 {
 /* styling & flex to homework section */
 .homework {
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
 }
 .hw {
@@ -129,6 +130,47 @@ button {
     border-radius: 5px;
 }
 
+/* homework two part two form styling */
+.form2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form2 {
+    opacity: 0.78;
+    box-shadow: 3px 6px 10px rgb(8, 24, 38);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    text-align: right;
+    font-weight: 600;
+}
+textarea {
+    margin-bottom: 5px 0;
+    border-radius: 5px;
+    text-align: right; 
+}
+.exchange-rate, .US {
+    margin-top: 10px;
+    color: white;
+}
+.form3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .form3 {
+    opacity: 0.78;
+    box-shadow: 3px 6px 10px rgb(8, 24, 38);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    text-align: right;
+    font-weight: 600;
+}
+
 /* apply rules browser greater than 800 pixels */
 @media all and (max-width: 800px) {
 
@@ -143,7 +185,7 @@ button {
         align-self: center;   
    }
     header h1 {
-        font-size: 52px;
+        font-size: 48px;
         margin: 0 0 10px 0;
         padding-top: 15px;
     }
